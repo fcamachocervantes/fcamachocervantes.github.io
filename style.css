@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Black background */
+    color: #8fd1b8; /* Seafoam green text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #004d40; /* Dark green header background */
+    color: #ffffff; /* White text color for the header */
+    padding: 20px;
+    text-align: center;
+}
+
+h2, h3 {
+    color: #004d40; /* Dark green heading colors */
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    padding-left: 20px; /* Adjusted padding for bullet points */
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+article {
+    margin: 20px;
+}
+
+#MinesExperience, #WorkExperience, #LeadershipActivities, #SkillsInterests {
+    background-color: #0d0d0d; /* Dark gray background for articles */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+}
+
+#MinesExperience h2, #WorkExperience h2, #LeadershipActivities h2, #SkillsInterests h2 {
+    background-color: #004d40; /* Dark green background for section headings */
+    color: #ffffff; /* White text color for section headings */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#RelevantCourses li {
+    font-weight: bold;
+}
+
+#ContactInfo {
+    font-size: 14px;
+}
+
+/* Add any additional styling as needed */
