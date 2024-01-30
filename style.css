@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
@@ -16,6 +16,7 @@ header {
     color: #ffffff; /* White text color for the header */
     padding: 20px;
     text-align: center;
+    border-radius: 8px;
 }
 
 h2, h3 {
@@ -43,6 +44,8 @@ article {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 #MinesExperience h2, #WorkExperience h2, #LeadershipActivities h2, #SkillsInterests h2 {
@@ -60,4 +63,10 @@ article {
     font-size: 14px;
 }
 
-/* Add any additional styling as needed */
+/* Flexbox for responsive layout */
+@media screen and (min-width: 900px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
