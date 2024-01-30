@@ -39,7 +39,7 @@ article {
     margin: 20px;
 }
 
-#MinesExperience, #WorkExperience, #LeadershipActivities, #SkillsInterests {
+#MinesExperience, #WorkExperience, #LeadershipActivities, #SkillsInterests, #aboutMe{
     background-color: #0d0d0d; /* Dark gray background for articles */
     padding: 20px;
     border-radius: 8px;
@@ -48,7 +48,7 @@ article {
     box-sizing: border-box;
 }
 
-#MinesExperience h2, #WorkExperience h2, #LeadershipActivities h2, #SkillsInterests h2 {
+#MinesExperience h2, #WorkExperience h2, #LeadershipActivities h2, #SkillsInterests h2, #aboutMe h2 {
     background-color: #004d40; /* Dark green background for section headings */
     color: #ffffff; /* White text color for section headings */
     padding: 10px;
@@ -65,8 +65,19 @@ article {
 
 /* Flexbox for responsive layout */
 @media screen and (min-width: 900px) {
+    body {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
     .container {
+        padding-left: 15%;
+        padding-right: 15%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    #aboutMe {
+        grid-column: span 2;
     }
 }
