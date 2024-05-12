@@ -1,84 +1,56 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f0f3f5;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Black background */
-    color: #8fd1b8; /* Seafoam green text color */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    min-height: 100vh;
 }
-
 header {
-    background-color: #004d40; /* Dark green header background */
-    color: #ffffff; /* White text color for the header */
+    background-color: #6bb9c9;
+    color: white;
     padding: 20px;
     text-align: center;
-    border-radius: 8px;
 }
-
-h2, h3 {
-    color: #004d40; /* Dark green heading colors */
+header > p {
+    background-color: #6bb9c9;
 }
-
+header > h1 {
+    color:white;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2{
+    color: #6bb9c9;
+}
+article {
+    margin-bottom: 30px;
+}
 p {
-    line-height: 1.5;
+    line-height: 1.6;
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 0.5em;
 }
-
 ul {
-    padding-left: 20px; /* Adjusted padding for bullet points */
+    list-style-type: disc;
+    margin-left: 20px;
+    background-color: lightblue;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-
 li {
     margin-bottom: 5px;
 }
-
-article {
-    margin: 20px;
-}
-
-#MinesExperience, #WorkExperience, #LeadershipActivities, #SkillsInterests, #aboutMe{
-    background-color: #0d0d0d; /* Dark gray background for articles */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+img {
     max-width: 100%;
-    box-sizing: border-box;
-}
-
-#MinesExperience h2, #WorkExperience h2, #LeadershipActivities h2, #SkillsInterests h2, #aboutMe h2 {
-    background-color: #004d40; /* Dark green background for section headings */
-    color: #ffffff; /* White text color for section headings */
-    padding: 10px;
-    border-radius: 8px;
-}
-
-#RelevantCourses li {
-    font-weight: bold;
-}
-
-#ContactInfo {
-    font-size: 14px;
-}
-
-/* Flexbox for responsive layout */
-@media screen and (min-width: 900px) {
-    body {
-        padding-top: 1%;
-        padding-bottom: 1%;
-        overflow: scroll;
-    }
-
-    .container {
-        padding-left: 15%;
-        padding-right: 15%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    #aboutMe {
-        grid-column: span 2;
-    }
+    height: auto;
+    display: block;
+    margin: 10px auto;
 }
