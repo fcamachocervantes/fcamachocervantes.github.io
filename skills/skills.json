@@ -1,0 +1,128 @@
+{
+  "skills": [
+    {
+      "skill": "C++",
+      "acquired": 2020,
+      "relevance": [
+        "Algorithms",
+        "Software engineering",
+        "Security",
+        "Efficient Programs",
+        "Hardware Drivers",
+        "Input Sanitization"
+      ]
+    },
+    {
+      "skill": "C",
+      "acquired": 2020,
+      "relevance": [
+        "Algorithms",
+        "Software engineering",
+        "Security",
+        "Efficient Programs",
+        "Hardware Drivers",
+        "Input Sanitization"
+      ]
+    },
+    {
+      "skill": "Java",
+      "acquired": 2017,
+      "relevance": [
+        "Algorithms",
+        "Software engineering",
+        "Efficient Programs",
+        "UI/UX",
+        "Security",
+        "Input Sanitization"
+      ]
+    },
+    {
+      "skill": "Python",
+      "acquired": 2020,
+      "relevance": [
+        "Algorithms",
+        "Data modeling",
+        "Data analysis",
+        "UI/UX",
+        "Quick Prototyping",
+        "Backend Data Management",
+        "Request Parsing",
+        "Information Presentation",
+        "Input Sanitization"
+      ]
+    },
+    {
+      "skill": "JavaScript",
+      "acquired": 2022,
+      "relevance": [
+        "Algorithms",
+        "Web Applications",
+        "Website Scripting",
+        "Request Management",
+        "Database Management",
+        "HTTP Requests",
+        "Input Sanitization"
+      ]
+    },
+    {
+      "skill": "HTML",
+      "acquired": 2022,
+      "relevance": [
+        "Web Applications",
+        "UI/UX",
+        "Information Presentation"
+      ]
+    },
+    {
+      "skill": "CSS",
+      "acquired": 2022,
+      "relevance": [
+        "UI/UX",
+        "Web Applications"
+      ]
+    },
+    {
+      "skill": "PHP",
+      "acquired": 2022,
+      "relevance": [
+        "Algorithms",
+        "HTTP Requests",
+        "Database Management",
+        "Website Scripting",
+        "Input Sanitization"
+      ]
+    },
+    {
+      "skill": "SQL",
+      "acquired": 2022,
+      "relevance": [
+        "Data analysis",
+        "Data modeling",
+        "Database Management",
+        "Backend Data Management"
+      ]
+    },
+    {
+      "skill": "Technical Writing",
+      "acquired": 2020,
+      "relevance": [
+        "Communication",
+        "Teamwork",
+        "Project Management",
+        "Project Planning",
+        "Time Management"
+      ]
+    },
+    {
+      "skill": "Agile",
+      "acquired": 2020,
+      "relevance": [
+        "Project Management",
+        "Project Planning",
+        "Time Management",
+        "Communication",
+        "Teamwork"
+      ]
+    }
+  ]
+}

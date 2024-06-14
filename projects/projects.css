@@ -1,0 +1,52 @@
+/* projects.css */
+
+/* --- Base Styles --- */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #222; /* Dark terminal background */
+    color: #fff; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Container for the Projects --- */
+#projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 1em;  /* Use em for consistent spacing */
+    margin: 20% auto; /* Centered like index.css */
+    background-color: #333; /* Darker container background */
+    border-radius: 10px;  /* Same as index.css */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Same as index.css */
+    max-width: 80%;
+}
+
+/* --- Project "Icons" --- */
+.project {
+    background-color: #282828;  /* Darker for contrast */
+    border: 2px solid #333;     /* Slightly darker border */
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* More pronounced shadow */
+    transition: transform 0.2s, box-shadow 0.2s;
+    max-width: 20em;  
+    text-align: center; /* Center text within icon */
+}
+
+.project:hover {
+    transform: translateY(-3px);
+}
+
+/* --- Project Content --- */
+.project-header h3 {
+    color: #6bb9c9;
+    margin-bottom: 0.5em; /* Reduced for tighter spacing */
+}
+
+.project-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}

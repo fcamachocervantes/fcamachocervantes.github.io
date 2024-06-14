@@ -1,0 +1,41 @@
+/* Skills Graph Container */
+.skills-list {
+  background-color: #333; /* Match header background */
+  color: white;
+  margin: 2em;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 8px; /* Add some rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Graph Nodes */
+.vis-network .vis-node {
+  font-weight: bold;
+  background-color: #333; /* Match header background */
+  border-color: #609fda; /* Blue accent from progress bar */
+  color: white;
+  font-size: 1em; /* Adjust as needed */
+  padding: 0.5em 1em; /* Add some padding to nodes */
+}
+
+.vis-network .vis-node.skill {
+  background-color: #609fda; /* Light blue */
+  color: white;
+  size-adjust: 10em;
+}
+
+.vis-network .vis-node.topic {
+  background-color: #f0f0f0; /* Light gray */
+  color: #333; /* Dark gray for contrast */
+}
+
+/* Graph Edges */
+.vis-network .vis-edge {
+  color: white; /* White edges on dark background */
+}
+
+/* Other Styling (Optional) */
+body {
+  background-color: #222; /* Darker background */
+}

@@ -1,0 +1,132 @@
+/* Header Styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  z-index: 100; /* Ensure it stays on top */
+  transition: max-height 0.3s ease; /* Smooth transition for max-height */
+  overflow: hidden;
+  max-height: 100px; /* Set an appropriate max-height when expanded (adjust as needed) */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header.collapsed {
+  max-height: 1.5em; /* Set a smaller max-height when collapsed (adjust as needed) */
+}
+
+header h1 {
+  display: inline-block;
+  margin-right: 1em;
+  transition: opacity 0.3s ease;
+}
+
+header .progress-bar {
+  position: fixed;
+  top: 8.25em;
+  margin-top: 0;
+}
+
+.logo {
+  float: left;
+  margin: 0.5em;
+  transition: margin 0.3s ease;
+}
+
+/* Collapse Button */
+.collapse-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+}
+
+/* Collapsed Header Style */
+header.collapsed nav {
+  position: fixed;
+  text-align: center;
+  top: 2px;
+  left: 10em;
+  right: 10em;
+  margin: 1em;
+}
+
+header.collapsed .progress-bar {
+  position: fixed;
+  top: 3.5em;
+  margin-top: 0;
+}
+
+header.collapsed h1 {
+  visibility: collapse;
+  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+/* Navigation */
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+}
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+nav a.active {
+  background-color: #e6f1f5;
+  color: black;
+  border-radius: 5px;
+}
+
+/* Progress Bar */
+.progress-bar {
+  height: 3px; /* Adjust height as needed */
+  background-color: #609fda; /* Progress bar color */
+  width: 0%; /* Initial width */
+}
+
+@media (max-width: 500px) {
+  header {
+    height: 2.5em;
+  }
+
+  header h1 {
+    visibility: collapse;
+  }
+
+  .collapse-btn {
+    visibility: hidden;
+  }
+
+  header nav {
+    position: fixed;
+    text-align: center;
+    width: fit-content;
+    top: 2px;
+    margin: 1em;
+    left: 0;
+    right: 0;
+  }
+
+  header .progress-bar {
+    position: fixed;
+    top: 4.5em;
+    margin-top: 0;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.25em 1em;
+    margin: 0 0.75em;
+  }
+}

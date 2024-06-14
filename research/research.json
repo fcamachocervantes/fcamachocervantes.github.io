@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "semester": "Spring 2024",
+      "project_name": "Ch(e)at GPT: Using LLMs to Learn Memory-Safe Languages",
+      "class_name": "Human Factors in Privacy and Security",
+      "class_id": "CSCI598C",
+      "description": "Developed an experiment to test the usability of ChatGPT as a means to teach developers memory safe languages such as Rust.",
+      "skills": [
+        "Memory Safety",
+        "Experimental Design",
+        "Human Factors in Security",
+        "Human Subjects Experimenting",
+        "Secure Software Development",
+        "Vulnerability Searching",
+        "AI/LLM"
+      ],
+      "programming_languages": ["Rust", "C", "C++"],
+      "research_paper": "research/papers/FinalReport.pdf"
+    }
+  ]
+}

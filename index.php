@@ -3,33 +3,34 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css" />
-        <link rel="icon" type="image/x-icon" href="rabbit.png">
+        <link rel="stylesheet" href="index/index.css" />
+        <link rel="icon" type="image/x-icon" href="images/rabbit.png">
         <title>Francisco Camacho</title>
     </head>
+    <?php include 'header.php'; ?>
     <body>
-        <header>
-            <h1>
-                Francisco Camacho Cervantes
-            </h1>
-            <p id="ContactInfo">8305 E Dartmouth Ave • Denver, CO 80231 •
-                fcamachocervantes303@gmail.com • (720)-397-1845</p>
-        </header>
         <div class="container">
             <article id="aboutMe">
                 <h2>
                     About Me
                 </h2>
-                <h3>Who am I?</h3>
                 <p>
-                    Hello, my name is Francisco! I'm recent graduate in Computer Science at Colorado School of Mines
-                    with a focus in Information Security and Privacy. I'm a Colorado native and I'm a first generation
-                    university graduate. Education is immensively important to me whether it be learning new things for myself
-                    or having the opportunity to teach others about the subjects I'm passionate about. During my time at Mines I've
-                    had the opportunity to work with a very diverse group of peers and to learn from them about their majors that
-                    they're all deeply passionate about. Now that I've graduated I hope I can continue to experience these wonderful
-                    moments learning from others and their experiences while also being able to utilize my own knowledge and passion
-                    in my own work and pursuits. 
+                    Hello, I'm Francisco Camacho a recent graduate from Colorado School of Mines with a Bachelor's in Computer Science focused in Cybersecurity and Software Development. 
+                    I'm a first generation college graduate in my family, having graduated with Cum Laude (with honors).
+                </p>
+                <p>
+                    I attended Colorado School of Mines as a President's Scholarship and Colorado Scholars Fund recipient. These merit based scholarships provided me with the opportunity to attend Mines and be the first in my family to attend university and earn my bachelor's degree.
+                </p>
+                <p>
+                    During my time at Mines I was able to experience a rigorous learning environment learning from Industry professionals about best practices when it comes to software development, information security and privacy, teamwork, and the entire development pipeline. 
+                    I was provided ample opportunities to experiment and develop projects with teammates across various disciplines at Mines. 
+                    My ability to communicate effectively with students of various backgrounds and disciplines was developed and rigorously tested. 
+                    My ability to plan and work on large scale projects spanning multiple months and meet project deadlines were honed throughout my time at Mines. 
+                </p>
+                <p>
+                    Most of all my time at Mines provided me with a curiosity to learn as much as I can, not only about Computer Science and it's applications but also about the various other disciplines taught at Mines. 
+                    Mines requires us to gain some insight into the other majors such as Chemistry, Physics, Math, and various Engineering disciplines. 
+                    These requirements for all majors are a cornerstone to why I loved my time at Mines, because they emphasized the importance teaching us new things and giving us new perspectives on how to create a solution.
                 </p>
             </article>
             <article id="MinesExperience">
@@ -39,52 +40,21 @@
                 <h3>
                     Colorado School of Mines
                 </h3>
-                <p id="MinesInfo">
-                    Golden, CO <br>
-                    May 2024 <br>
-                    Bachelor of Science, Computer Science <br>
-                    GPA in Computer Science: 3.690 <br>
-                    President's Scholarship Recipient, Colorado Scholars Fund Recipient
-                </p>
-                <h3>
-                    Relevant Coursework:
-                </h3>
-                <ul id="RelevantCourses">
+                <ul id="MinesInfo">
                     <li>
-                        Computer Networks
+                        Golden, CO
                     </li>
                     <li>
-                        Information Security & Privacy
+                        May 2024
                     </li>
                     <li>
-                        Theory of Cryptography
+                        Bachelor of Science, Computer Science
                     </li>
                     <li>
-                        Cloud Computing & Security
+                        GPA in Computer Science: 3.720
                     </li>
                     <li>
-                        Human Factors in Privacy & Security
-                    </li>
-                    <li>
-                        Operating Systems
-                    </li>
-                    <li>
-                        Programming Languages
-                    </li>
-                    <li>
-                        Computer Organization
-                    </li>
-                    <li>
-                        Data Base Management
-                    </li>
-                    <li>
-                        Mobile Application Development
-                    </li>
-                    <li>
-                        Web Programming
-                    </li>
-                    <li>
-                        Web Applications
+                        President's Scholarship Recipient, Colorado Scholars Fund Recipient
                     </li>
                 </ul>
                 <h3>
@@ -95,15 +65,15 @@
                     <br>
                     Authorized by the NSA & DHS
                     <br>
-                    <img src="Certificate.png" alt="Screenshot of my cyber defense education certificate authorized by the NSA and DHS.">
                 </p>
+                <img src="images/Certificate.png" alt="Screenshot of my cyber defense education certificate authorized by the NSA and DHS.">
                 <h3>
                     Overland High School
                 </h3>
                 <p>
                     Aurora, CO
                     GPA: 3.995
-                    IST Scholar
+                    Institute of Science and Technology Scholar
                 </p>
             </article>
             <article id="WorkExperience">
@@ -124,19 +94,16 @@
                         Generated proof of concept UI/UX.
                     </li>
                     <li>
-                        Constructed prototype application that securely manages user
-                        information.
+                        Constructed prototype application that securely manages user information.
                     </li>
                     <li>
-                        Connected backend processes to front-end application
-                        utilizing API requests.
+                        Connected backend processes to front-end application utilizing API requests.
                     </li>
                     <li>
                         Worked with production grade graph database.
                     </li>
                     <li>
-                        Firsthand experience utilizing blockchain as an encryption
-                        tool.
+                        Firsthand experience utilizing blockchain as an encryption tool.
                     </li>
                 </ul>
                 <h3>
@@ -192,55 +159,6 @@
                     </li>
                 </ul>
             </article>
-            <article id="LeadershipActivities">
-                <h2>
-                    Leadership & Activities
-                </h2>
-                <h3>
-                    Web Development Experimentation
-                </h3>
-                <p>
-                    Solo Learning Experience
-                </p>
-                <ul>
-                    <li>
-                        Developed multiple proof of concept websites for e-commerce
-                        ideas.
-                    </li>
-                    <li>
-                        Practice to develop habitual good programming practices for
-                        large code bases.
-                    </li>
-                    <li>
-                        Gain experience working with different frameworks and
-                        architectural designs
-                    </li>
-                </ul>
-                <h3>
-                    Game Development Project
-                </h3>
-                <p>
-                    Project Lead / Lead Developer
-                    Nov 2023 - Present
-                </p>
-                <ul>
-                    <li>
-                        Experience managing people in multiple different disciplines
-                        to create a cohesive project.
-                    </li>
-                    <li>
-                        Developing communication skills to coordinate people of
-                        different disciplines.
-                    </li>
-                    <li>
-                        Furthering experience collaborating with other developers.
-                    </li>
-                    <li>
-                        Habituating good programming practices for scalability and
-                        serviceability.
-                    </li>
-                </ul>
-            </article>
             <article id="SkillsInterests">
                 <h2>
                     Skills & Interests
@@ -250,7 +168,7 @@
                 </h3>
                 <ul>
                     <li>
-                        Linux OS, Windows OS trouble shooting: 7 years of experience
+                        Linux OS, Windows OS: 7 years of experience
                     </li>
                     <li>
                         Java OOP: 7 years of experience
@@ -265,7 +183,7 @@
                         ChatGPT, GitHub Copilot: 2 years of experience
                     </li>
                     <li>
-                        Rust, AWS, Docker Containers: 4 months of experience
+                        Rust, AWS, Docker Containers: 6 months of experience
                     </li>
                 </ul>
                 <h3>
@@ -303,6 +221,9 @@
                     </li>
                 </ul>
             </article>
+            <iframe src="images/FranciscoCamacho.pdf" width="100%" height="500px" padding="1.5em 0em"> </iframe>
+            <button onclick=downloadResume()>Download PDF</button>
         </div>
     </body>
+    <script type="text/javascript" src="index/index.js"></script>
 </html>

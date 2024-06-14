@@ -1,0 +1,220 @@
+{
+  "courses": [
+    {
+      "semester": "Fall 2022",
+      "class_name": "Database Management",
+      "class_id": "CSCI403",
+      "description": "Learned how to utilize SQL for data management and analysis. Learned the principles for creating well structured databases to ensure normalization and efficiency.",
+      "skills": [
+        "Access Control",
+        "Data Integrity",
+        "Data Sanitization",
+        "Efficiency",
+        "Normalization",
+        "Data Analysis",
+        "Data Management"
+      ],
+      "programming_languages": ["SQL", "Java", "JavaScript", "Bash"]
+    },
+    {
+      "semester": "Spring 2023",
+      "class_name": "Mobile Application Development",
+      "class_id": "CSCI448",
+      "description": "Learned the principles of mobile application development. Developed a variety of mobile application for android devices",
+      "skills": [
+        "Software Development",
+        "Stateful Application",
+        "Model-View-ViewModel Architecture",
+        "Database Management",
+        "HTTP Requests",
+        "Lambda Programming"
+      ],
+      "programming_languages": ["Java", "SQL", "Kotlin"]
+    },
+    {
+      "semester": "Spring 2023",
+      "class_name": "Algorithms",
+      "class_id": "CSCI406",
+      "description": "Learned principles for optimizing programs to ensure efficiency. Learned how to evaluate the efficiency of existing programs.",
+      "skills": ["Program Efficiency", "Program Optimization"],
+      "programming_languages": ["C", "C++", "Python", "Java"]
+    },
+    {
+      "semester": "Spring 2023",
+      "class_name": "Web Applications",
+      "class_id": "CSCI446",
+      "description": "Learned how to develop dynamic web applications using React and Node.js pair with middle ware to interact with MongoDB.",
+      "skills": [
+        "MongoDB",
+        "React",
+        "RESTful API",
+        "CRUD",
+        "Middleware",
+        "Express",
+        "UI Design",
+        "Stateless Application"
+      ],
+      "programming_languages": ["JavaScript", "Python", "CSS3", "HTML"]
+    },
+    {
+      "semester": "Spring 2023",
+      "class_name": "Intoduction to Cryptography",
+      "class_id": "CSCI474",
+      "description": "Learned about the number theory behind encryption algorithms and how to utilize them in secure communication protocols, data protection, auditing, and signing for verification.",
+      "skills": [
+        "Encryption",
+        "Secure Communication",
+        "Certificate Authorities",
+        "Authentication",
+        "Authorization",
+        "Accountablility",
+        "Data Integrity",
+        "Access Control",
+        "Verification"
+      ],
+      "programming_languages": ["C", "C++", "Python", "Java", "Bash"]
+    },
+    {
+      "semester": "Fall 2023",
+      "class_name": "Programming Languages",
+      "class_id": "CSCI400",
+      "description": "Learned about functional languages and how to utilize them in producing higher level languages.",
+      "skills": ["OCaml", "Functional Programming", "Lambda Calculus"],
+      "programming_languages": ["OCaml", "JavaScript"]
+    },
+    {
+      "semester": "Fall 2023",
+      "class_name": "Web Programming",
+      "class_id": "CSCI445",
+      "description": "Learned how to create a webpage on every part of the stack.",
+      "skills": [
+        "Database Management",
+        "Web Server Management",
+        "HTTP Requests",
+        "UI Design",
+        "Access Control",
+        "CRUD",
+        "Data Sanitization"
+      ],
+      "programming_languages": [
+        "HTML",
+        "CSS3",
+        "SQL",
+        "PHP",
+        "JavaScript",
+        "AJAX"
+      ]
+    },
+    {
+      "semester": "Fall 2023",
+      "class_name": "Computer Networks",
+      "class_id": "CSCI471",
+      "description": "Learned about each layer of computer networks and their roles in enabling communications between computers. Learned about the security and performance factors when creating and optimizing computer networks.",
+      "skills": [
+        "Network Protocols",
+        "Security",
+        "Network Algorithms",
+        "Data Integrity",
+        "Certificate Authorities",
+        "DNS",
+        "TCP",
+        "UDP",
+        "HTTP",
+        "Routers",
+        "Switches",
+        "Packets"
+      ],
+      "programming_languages": ["C", "C++", "JavaScript", "Python", "Bash"]
+    },
+    {
+      "semester": "Fall 2023",
+      "class_name": "Information Security and Privacy",
+      "class_id": "CSCI475",
+      "description": "Learned about the principles of how to maintain the integrity of data while ensuring it's available to those who are authorized. Learned how to implement encryption algorithms and various attack vectors to address when programming",
+      "skills": [
+        "Network Algorithms",
+        "Network Protocols",
+        "Encryption",
+        "CIA Triade",
+        "Data Integrity",
+        "Privacy",
+        "Remote Code Execution",
+        "SQL Injections",
+        "Cross Site Scripting",
+        "Reverse Shell",
+        "Certificate Authorities",
+        "Asymmetric Encryption",
+        "Symmetric Encryption",
+        "Kerberos",
+        "Access Control",
+        "Authentication",
+        "Authorization",
+        "Accountablility"
+      ],
+      "programming_languages": ["C", "C++", "Bash"]
+    },
+    {
+      "semester": "Spring 2024",
+      "class_name": "Operating Systems",
+      "class_id": "CSCI442",
+      "description": "Learned about operating system design specifically Unix based opearting systems. Learned about system programming",
+      "skills": [
+        "Memory Mangement",
+        "Operating System Features",
+        "Multithreaded Programming",
+        "Computer System Architecture",
+        "Access Control",
+        "Mutex",
+        "Time Quantum",
+        "Process Scheduling",
+        "Deadlock Detection and Prevention",
+        "Resource Manangement"
+      ],
+      "programming_languages": ["C", "C++", "Bash"]
+    },
+    {
+      "semester": "Spring 2024",
+      "class_name": "Human Factors in Information Security and Privacy",
+      "class_id": "CSCI598C",
+      "description": "Learned about how preconceptions, media, and education around security can impact developers, users, and adversaries.",
+      "skills": [
+        "Encryption",
+        "AI/LLMs",
+        "CIA Triade",
+        "Passwords",
+        "Secure Software Development",
+        "Memory Safe Languages",
+        "Security Education",
+        "Functional Programming"
+      ],
+      "programming_languages": [
+        "C",
+        "C++",
+        "Rust",
+        "Python",
+        "JavaScript",
+        "Java"
+      ]
+    },
+    {
+      "semester": "Spring 2024",
+      "class_name": "Cloud Computing and Security",
+      "class_id": "CSCI598D",
+      "description": "Learned about the security benefits and drawbacks of utilizing the cloud. Learned about the various challenges when handling vast amounts of traffic and ensuring stability, performance, and security all at once.",
+      "skills": [
+        "Encryption",
+        "Docker",
+        "Virtualization",
+        "Resource Manangement",
+        "Side Channel Attacks",
+        "Data Centers",
+        "AI/LLMs",
+        "Quantum Computing",
+        "Traffic Mangement",
+        "Data Center Traffic Algorithms",
+        "Data Management"
+      ],
+      "programming_languages": ["C", "C++", "JavaScript"]
+    }
+  ]
+}

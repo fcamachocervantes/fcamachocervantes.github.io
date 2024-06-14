@@ -1,0 +1,63 @@
+{
+  "projects": [
+    {
+      "semester": "Spring 2023",
+      "project_name": "Block Brawl",
+      "class_id": "Mobile Application Development",
+      "description": "Developed a puzzle mobile game over the course of a semester with 2 other students.",
+      "skills": [
+        "Database Management",
+        "UI/UX",
+        "Game State and Logic Controls",
+        "Persistent Profiles"
+      ],
+      "programming_languages": ["Kotlin", "Java", "SQL"],
+      "github_link": "https://github.com/laforcem/block-brawl"
+    },
+    {
+      "semester": "Fall 2023",
+      "project_name": "Networking Projects",
+      "class_id": "Computer Networks",
+      "description": "Various programming projects for computer networks which involved implementing algorithms such as HTTP, TCP, and other communicaiton protocols.",
+      "skills": ["HTTP", "TCP", "IP", "Packets", "Communcation Protocols"],
+      "programming_languages": ["C", "C++", "Python"],
+      "github_link": "https://github.com/fcamachocervantes/NetworksProjects"
+    },
+    {
+      "semester": "Spring 2023",
+      "project_name": "Algorthim Projects",
+      "class_id": "Algorithms",
+      "description": "Programming Projects from algorithms, most where programming challenges which need to meet specific efficiency requirements to pass.",
+      "skills": ["Efficiency", "Optimization", "Memory Mangement", "Programming Challenges", "Algorithm Creation"],
+      "programming_languages": ["C", "C++", "Python"],
+      "github_link": "https://github.com/fcamachocervantes/AlgorithmsProjects"
+    },
+    {
+      "semester": "Fall 2022",
+      "project_name": "Database Management Labs",
+      "class_id": "Database Management",
+      "description": "Various labs to learn how to normalize databases, create SQL tables based on given requirements, and data analysis labs.",
+      "skills": ["SQL", "Data Processing", "Normalization", "Database Management"],
+      "programming_languages": ["SQL"],
+      "github_link": "https://github.com/fcamachocervantes/DatabaseManagementLabs"
+    },
+    {
+      "semester": "Fall 2023",
+      "project_name": "Web Programming Final",
+      "class_id": "Web Programming",
+      "description": "Worked with two other students in the class to create a JavaScript game utilizing a physics engine that we developed.",
+      "skills": ["Algorithms", "Game State and Logic Controls", "Teamwork", "Time Management"],
+      "programming_languages": ["JavaScript", "PHP", "HTML", "CSS"],
+      "github_link": "https://github.com/fcamachocervantes/WebProgrammingFinal"
+    },
+    {
+      "semester": "Spring 2024",
+      "project_name": "Operating System Projects",
+      "class_id": "Operating Systems",
+      "description": "Various projects over the semseter focusing on various operating system aspects such as memory management, process scheduling ect.",
+      "skills": ["Memory Mangement", "Process Scheduling", "Parallel Processing", "Program Optimization"],
+      "programming_languages": ["C", "C++", "Bash"],
+      "github_link": "https://github.com/fcamachocervantes/OperatingSystemProjects"
+    }
+  ]
+}
