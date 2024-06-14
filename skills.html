@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/rabbit.png" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/vis-network/styles/vis-network.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+    ></script>
+    <link rel="stylesheet" href="index/index.css" />
+    <link rel="stylesheet" href="header/header.css" />
+    <link rel="stylesheet" href="skills/skills.css" />
+    <title>Francisco's Skills</title>
+  </head>
+  <body>
+    <header id="dynamicHeader" class="">
+      <h1>Home</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="courses.html">Courses</a>
+        <a href="projects.html">Projects</a>
+        <button class="collapse-btn" onclick="toggleHeader()">▼</button>
+      </nav>
+      <div class="progress-bar" style="width: 0%;"></div>
+    </header>
+    <script type="text/javascript" src="header/header.js"></script>
+
+    <div class="skills-list"></div>
+    <script type="text/javascript" src="skills/skills.js"></script>
+    <script type="text/javascript" src="skills/spacing.js"></script>
+  </body>
+</html>

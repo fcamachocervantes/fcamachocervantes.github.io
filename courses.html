@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/rabbit.png" />
+    <link rel="stylesheet" href="index/index.css" />
+    <link rel="stylesheet" href="header/header.css" />
+    <link rel="stylesheet" href="courses/courses.css" />
+    <title>Courses</title>
+  </head>
+  <body>
+    <header id="dynamicHeader" class="">
+      <h1>Home</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="courses.html">Courses</a>
+        <a href="projects.html">Projects</a>
+        <button class="collapse-btn" onclick="toggleHeader()">▼</button>
+      </nav>
+      <div class="progress-bar" style="width: 0%;"></div>
+    </header>
+    <script type="text/javascript" src="header/header.js"></script>
+
+    <div class="courses-grid"></div>
+    <script type="text/javascript" src="courses/courses.js"></script>
+    <script type="text/javascript" src="courses/spacing.js"></script>
+  </body>
+</html>
